@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
+  --primary-color: #06020b;
+  --primary-color-dark: #edebef;
+  --secondary-color: #090908;
+  --text-dark: #101011;
+  --text-light: #ebecee;
   --extra-light: #faf5ff;
   --max-width: 1200px;
 }
@@ -165,7 +165,7 @@ ul li a:hover {
 
 .portfolio:hover {
   background-color: var(--primary-color-dark);
-  color: #ffffff;
+  color: #737070;
 }
 
 .image {
