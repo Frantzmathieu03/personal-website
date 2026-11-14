@@ -1,21 +1,34 @@
-# Frantz Mathieu - Web Developer Portfolio
+# Frantz Mathieu — Trader & Full-Stack Developer
 
-Welcome to my personal website! This portfolio showcases my skills as a web developer and highlights the projects I've worked on. 
+My personal website and portfolio. I'm a Boston-based professional trader
+(independent since 2018) and full-stack developer, and the founder of
+Nuvador LLC and MECHA.
 
-## Overview
+**Live sections:** Home · About · Resume · Portfolio · Contact
 
-This portfolio is designed to be responsive and user-friendly, featuring a clean and modern layout. It includes sections for Home, About, Resume, Portfolio, and Contact, allowing visitors to navigate easily and learn more about me.
+## What's inside
 
-## Technologies Used
+- **Home** — introduction, headline roles, and quick facts.
+- **About** — trading background and the two companies I founded.
+- **Resume** — experience (independent trading, freelance development,
+  Subaru, AT&T), education (Full Stack Development Certificate, University
+  of Miami, 2024), and skills.
+- **Portfolio** — MECHA, the Nuvador LLC booking platform, and selected
+  GitHub projects.
+- **Contact** — GitHub and LinkedIn.
 
-- **HTML**: The structure of the web pages.
-- **CSS**: Styling to create a visually appealing design.
-- **Remix Icon**: A library for icons used throughout the website.
+## Tech
 
-## Features
+Plain HTML + CSS with Remix Icon — no framework, no build step. Just open
+`index.html` or serve the folder with any static host.
 
-- **Responsive Navigation**: A navigation bar that adjusts to different screen sizes.
-- **Hero Section**: A welcoming introduction with my name and profession.
-- **Action Buttons**: Options to hire me or view my portfolio.
-- **Profile Image**: A personal touch to the website.
+## Updating the hero photo
 
+The hero image is a one-file swap: replace
+`assets/IMG_0008.JPG-removebg-preview.png` with a new image of the same
+name and the site updates — no code changes needed.
+
+## Links
+
+- GitHub: https://github.com/Frantzmathieu03
+- LinkedIn: https://www.linkedin.com/in/frantz-mathieu-762466b2
