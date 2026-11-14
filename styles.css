@@ -220,9 +220,12 @@ nav ul li a.nav__cta:hover {
 
 .hero__image img {
   width: min(24rem, 88%);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
   border-radius: 24px;
-  background: linear-gradient(160deg, #eef4f1 0%, #dde8e2 100%);
-  padding: 1.5rem 1.5rem 0;
+  border: 1px solid var(--line);
+  box-shadow: 0 24px 48px rgba(10, 15, 26, 0.14);
 }
 
 /* ---------- Sections ---------- */
@@ -414,6 +417,51 @@ nav ul li a.nav__cta:hover {
   color: #4ade80;
 }
 
+.card a.card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  align-self: flex-start;
+  margin-top: 0.75rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  background-color: #4ade80;
+  color: var(--ink);
+}
+
+.card a.card__btn:hover {
+  background-color: #ffffff;
+  color: var(--ink);
+}
+
+/* ---------- Background (early career) ---------- */
+
+.background__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 62rem;
+}
+
+.background__item {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.25rem;
+  background-color: var(--bg);
+}
+
+.background__item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+
+.background__item p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
 /* ---------- Contact / footer ---------- */
 
 .contact {
@@ -523,7 +571,7 @@ footer {
   }
 
   .hero__image img {
-    width: min(17rem, 78%);
+    width: min(18rem, 84%);
   }
 
   .section {
@@ -540,6 +588,10 @@ footer {
   }
 
   .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .background__grid {
     grid-template-columns: 1fr;
   }
 
