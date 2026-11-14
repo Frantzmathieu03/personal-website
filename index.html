@@ -4,56 +4,302 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frantz Mathieu — professional trader and full-stack developer based in Boston, MA. Founder of Nuvador LLC and MECHA."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Responsive Portfolio</title>
+    <title>Frantz Mathieu | Trader & Full-Stack Developer</title>
   </head>
   <body>
     <nav>
       <div class="nav__content">
-        <div class="logo"><a href="#">Frantz Mathieu</a></div>
+        <div class="logo"><a href="#home">Frantz Mathieu</a></div>
         <label for="check" class="checkbox">
           <i class="ri-menu-line"></i>
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact" class="nav__cta">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <section class="section">
-      <div class="section__container">
-        <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">
-            I'm <span>Frantz<br />a</span> Web Developer
-          </h1>
-          <p class="description">
-            Welcome to my web developer portfolio! I'm Frantz, 
-            and I’ve just finished school with a strong desire to learn more about web development. 
-            I’m eager to explore creating beautiful, responsive, 
-            and user-friendly websites. 
-            While I’ve started working on various web projects, including personal blogs and e-commerce platforms,
-             I’m excited to continue developing my skills and knowledge in this dynamic field.
 
-
+    <!-- ============ HOME / HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__container">
+        <div class="hero__content">
+          <p class="subtitle">Professional Trader · Full-Stack Developer</p>
+          <h1 class="hero__title">Frantz Mathieu</h1>
+          <p class="hero__tagline">
+            I read markets and I build software. Seven years of independent
+            trading — and full-stack products shipped end to end.
           </p>
           <div class="action__btns">
-            <button class="hire__me">Hire Me</button>
-            <button class="portfolio">Portfolio</button>
+            <a href="#contact" class="btn btn--primary">Hire Me</a>
+            <a href="#portfolio" class="btn btn--ghost">View Portfolio</a>
+          </div>
+          <div class="hero__facts">
+            <span><i class="ri-line-chart-line"></i> Trading since 2018</span>
+            <span><i class="ri-code-s-slash-line"></i> Full-Stack Developer</span>
+            <span><i class="ri-map-pin-line"></i> Boston, MA</span>
           </div>
         </div>
-        <div class="image">
-          <img src="assets/IMG_0008.JPG-removebg-preview.png" alt="profile" />
+        <div class="hero__image">
+          <!-- HERO IMAGE: one-file swap — replace assets/IMG_0008.JPG-removebg-preview.png to update the photo. -->
+          <img src="assets/IMG_0008.JPG-removebg-preview.png" alt="Frantz Mathieu" />
         </div>
       </div>
     </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__container">
+        <p class="section__label">About</p>
+        <h2 class="section__title">A developer who trades — full-time, both.</h2>
+        <div class="about__grid">
+          <p>
+            I'm a Boston-based professional trader and full-stack developer.
+            I've traded independently since 2018 — equities, futures, and
+            options — running a disciplined, top-down process, and I build the
+            platforms my businesses run on.
+          </p>
+          <p>
+            I'm the founder of <strong>Nuvador LLC</strong>, a Boston luxury
+            black-car service, and <strong>MECHA</strong>, an AI co-pilot that
+            helps drivers diagnose car problems and avoid overpaying for
+            repairs. My work sits where markets, software, and business meet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section class="section section--alt" id="resume">
+      <div class="section__container">
+        <p class="section__label">Resume</p>
+        <h2 class="section__title">Experience</h2>
+
+        <div class="resume__list">
+          <article class="resume__item">
+            <div class="resume__meta">
+              <h3>Independent Trader</h3>
+              <span class="resume__date">Jan 2018 — Present</span>
+            </div>
+            <p>
+              Full-time independent trading of U.S. equities, index futures,
+              and options. Rules-based and risk-managed, built on
+              support/resistance and market structure across multiple
+              timeframes.
+            </p>
+          </article>
+
+          <article class="resume__item">
+            <div class="resume__meta">
+              <h3>Freelance Full-Stack Developer</h3>
+              <span class="resume__date">2024 — Present</span>
+            </div>
+            <p>
+              Design and build responsive web applications end to end —
+              front end, APIs, and databases — for my own ventures and for
+              clients.
+            </p>
+          </article>
+
+          <article class="resume__item">
+            <div class="resume__meta">
+              <h3>Subaru — Customer Service</h3>
+              <span class="resume__date">2022 — 2024</span>
+            </div>
+            <p>
+              Customer service and support for dealership customers — service
+              questions, scheduling, and follow-through.
+            </p>
+          </article>
+
+          <article class="resume__item">
+            <div class="resume__meta">
+              <h3>AT&amp;T — Sales &amp; Billing Support</h3>
+              <span class="resume__date">2018 — 2021</span>
+            </div>
+            <p>
+              Sold wireless products and services, and resolved customer
+              billing questions and account issues.
+            </p>
+          </article>
+        </div>
+
+        <h2 class="section__title section__title--sub">Education</h2>
+        <div class="resume__list">
+          <article class="resume__item">
+            <div class="resume__meta">
+              <h3>Full Stack Development Certificate</h3>
+              <span class="resume__date">September 18, 2024</span>
+            </div>
+            <p>University of Miami</p>
+          </article>
+        </div>
+
+        <h2 class="section__title section__title--sub">Skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>REST APIs</li>
+          <li>Git &amp; GitHub</li>
+          <li>Trading Platforms</li>
+          <li>Market Operations</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section" id="portfolio">
+      <div class="section__container">
+        <p class="section__label">Portfolio</p>
+        <h2 class="section__title">Selected work</h2>
+
+        <div class="cards">
+          <article class="card card--featured">
+            <p class="card__tag">AI Product</p>
+            <h3>MECHA — Your Car's AI Co-Pilot</h3>
+            <p>
+              AI-powered car diagnosis, fair-price protection, and a vehicle
+              health vault — in 40+ languages.
+            </p>
+            <a
+              href="https://github.com/Frantzmathieu03/mecha-app"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub <i class="ri-arrow-right-line"></i
+            ></a>
+          </article>
+
+          <article class="card card--featured">
+            <p class="card__tag">Business Platform</p>
+            <h3>Nuvador LLC — Booking Platform</h3>
+            <p>
+              Online booking platform for a Boston luxury black-car service —
+              reservations, trip details, and instant client alerts.
+            </p>
+          </article>
+
+          <article class="card">
+            <p class="card__tag">Web App</p>
+            <h3>Weather Dashboard</h3>
+            <p>Live weather lookup by city, built on a public weather API.</p>
+            <a
+              href="https://github.com/Frantzmathieu03/Weather-Dashboard"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub <i class="ri-arrow-right-line"></i
+            ></a>
+          </article>
+
+          <article class="card">
+            <p class="card__tag">Back End</p>
+            <h3>Social Network API</h3>
+            <p>
+              REST API for a social network — users, posts, reactions, and
+              friendships.
+            </p>
+            <a
+              href="https://github.com/Frantzmathieu03/Social-Network-API"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub <i class="ri-arrow-right-line"></i
+            ></a>
+          </article>
+
+          <article class="card">
+            <p class="card__tag">Web App</p>
+            <h3>Employee Payroll Tracker</h3>
+            <p>
+              In-browser payroll tracker that records employee data and
+              computes average salary.
+            </p>
+            <a
+              href="https://github.com/Frantzmathieu03/Employee-Payroll-Tracker"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub <i class="ri-arrow-right-line"></i
+            ></a>
+          </article>
+
+          <article class="card">
+            <p class="card__tag">Full Stack</p>
+            <h3>CMS-Style Blog Site</h3>
+            <p>
+              Full-stack blog with user accounts, posts, and comments, built
+              MVC-style.
+            </p>
+            <a
+              href="https://github.com/Frantzmathieu03/CMS-style-blog-site"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub <i class="ri-arrow-right-line"></i
+            ></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--alt" id="contact">
+      <div class="section__container contact">
+        <p class="section__label">Contact</p>
+        <h2 class="section__title">Let's work together.</h2>
+        <p class="contact__line">
+          Open to trading operations and full-stack roles — and select
+          freelance builds.
+        </p>
+        <div class="action__btns action__btns--center">
+          <a
+            href="https://github.com/Frantzmathieu03"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--primary"
+            ><i class="ri-github-fill"></i> GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/frantz-mathieu-762466b2"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--ghost"
+            ><i class="ri-linkedin-box-fill"></i> LinkedIn</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Frantz Mathieu · Boston, MA</p>
+      <p class="footer__links">
+        <a
+          href="https://github.com/Frantzmathieu03"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          ><i class="ri-github-fill"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/frantz-mathieu-762466b2"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+      </p>
+    </footer>
   </body>
 </html>
