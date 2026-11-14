@@ -366,7 +366,7 @@ nav ul li a.nav__cta:hover {
   border-color: var(--ink);
 }
 
-.card--featured h3 {
+.cards .card--featured h3 {
   color: #ffffff;
 }
 
